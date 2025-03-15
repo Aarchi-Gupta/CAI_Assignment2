@@ -3,10 +3,11 @@ pysqlite3-binary
 pdfplumber
 sentence_transformers
 faiss-cpu
+sqlite3
+torch==2.1.0
 numpy==1.23.5
-chromadb==0.4.24
+chromadb==0.4.5
 pandas
-torch
 torchvision
 torchaudio
 langchain
