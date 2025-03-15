@@ -2,7 +2,12 @@ streamlit
 pdfplumber
 sentence-transformers
 faiss-cpu
+torch==2.0.1
+torchvision
+torchaudio
+--upgrade-strategy eager
 chromadb
+pysqlite3-binary
 pandas
 langchain
 numpy
