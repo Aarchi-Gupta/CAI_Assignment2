@@ -1,5 +1,7 @@
 import streamlit as st
-from Basic_RAG import ask_local_llm, retrieve_similar_chunks
+# import import_ipynb
+# import Basic_RAG as model
+from basic_rag import ask_local_llm, retrieve_similar_chunks
 
 # Set the page title
 st.set_page_config(page_title="Financial RAG Chatbot Cognizant")
