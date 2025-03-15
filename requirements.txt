@@ -1,12 +1,12 @@
 streamlit
+pysqlite3-binary
 pdfplumber
 sentence_transformers
 faiss-cpu
-chromadb
+chromadb==0.4.24
 pandas
 numpy
 torch
 torchvision
 torchaudio
-pysqlite3-binary
 langchain
