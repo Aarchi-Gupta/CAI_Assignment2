@@ -1,2 +1,11 @@
 streamlit
-openai
+pdfplumber
+sentence_transformers
+fitz
+faiss
+chromadb
+pandas
+re
+langchain
+numpy
+pickle
