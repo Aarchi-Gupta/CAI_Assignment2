@@ -1,8 +1,7 @@
 streamlit
 pdfplumber
 sentence_transformers
-fitz
-faiss
+faiss-cpu
 chromadb
 pandas
 re
