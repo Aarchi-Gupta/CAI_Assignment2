@@ -1,4 +1,5 @@
 import streamlit as st
+from Basic_RAG import ask_local_llm, retrieve_similar_chunks
 
 # Set the page title
 st.set_page_config(page_title="Financial RAG Chatbot Cognizant")
@@ -24,7 +25,9 @@ if user_input:
     st.session_state.messages.append({"role": "user", "content": user_input})
 
     # Hardcoded bot response
-    bot_response = "This is a hardcoded response from the bot."
+    # bot_response = "This is a hardcoded response from the bot."
+    retrieved_chunks_DB = retrieve_similar_chunks(user_input)
+    bot_response = ask_local_llm(user_input, retrieved_chunks_DB)
 
     # Add the bot's response to the chat history
     st.session_state.messages.append({"role": "bot", "content": bot_response})
