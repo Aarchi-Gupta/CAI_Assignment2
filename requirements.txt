@@ -3,9 +3,9 @@ pysqlite3-binary
 pdfplumber
 sentence_transformers
 faiss-cpu
+numpy==1.23.5
 chromadb==0.4.24
 pandas
-numpy
 torch
 torchvision
 torchaudio
