@@ -2,6 +2,8 @@ streamlit
 pdfplumber
 sentence_transformers
 faiss-cpu
+pysqlite3
+sqlite3
 chromadb
 pandas
 langchain
