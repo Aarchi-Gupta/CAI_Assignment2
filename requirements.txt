@@ -1,13 +1,8 @@
 streamlit
-pysqlite3-binary
 pdfplumber
 sentence_transformers
 faiss-cpu
-sqlite3
-torch==2.1.0
-numpy==1.23.5
-chromadb==0.4.5
+chromadb
 pandas
-torchvision
-torchaudio
 langchain
+numpy
